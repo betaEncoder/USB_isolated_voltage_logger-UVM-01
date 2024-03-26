@@ -1,7 +1,7 @@
 # USB isolated voltage logger UVM-01
 -USB絶縁電圧計-
 
-ここに写真を貼る
+![image](image.jpg)
 
 # これは何？
 測定した電圧を Tera Term 等のターミナルソフトウェアに表示するモジュールです．
@@ -19,14 +19,16 @@
 - 測定レンジ切り替え：自動/固定
 - 測定レンジ：L(0-3V)，H(0-30V)
 
-|  | L | H |
+| Range | L | H |
+| ----|----|----|
 | 分解能 | 1mV | 10mV |
 | 入力抵抗 | 10MΩ | 1MΩ |
 
 # コマンド
 コマンドにより設定を変更することができます．
 
-|  | 設定内容 | 引数 |
+| コマンド | 設定内容 | 引数 |
+|----|----|----|
 | interval | 測定周期 | 0～10000（ms単位で指定） |
 | range | 測定レンジを指定 | auto(自動切替)/L/H |
 | autostart | 接続後自動測定を開始する | on/off |
@@ -39,6 +41,6 @@
 
 このデータは寸法を保証するものではありません．参考値としてご利用ください．
 
-- [PDF](Assembly Drawings.PDF)
+- [PDF](Assembly_Drawings.PDF)
 - [STEP](UVM-01.step)
 - [PARASOLID](UVM-01.x_t)
